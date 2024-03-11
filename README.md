@@ -1,94 +1,51 @@
 
+
 # Projeto Integrador - PDV
-*(Coloque aqui o nome do seu projeto.)*
-
+***FedoraCoffee***
 Um modelo para o desenvolvimento do Projeto Integrador do Curso de Técnico em Desenvolvimento de Sistemas para a Internet Integrado ao Ensino Médio do IFC - Campus Araquari.
-*(Coloque aqui uma breve descrição do seu projeto.)*
 
-**Professor** [Marco André Mendes](github.com/marcoandre)
+***FedoraCoffee*** é um projeto desenvolvido usando o framework front-end VueJS, e o back-end desenvolvido por Django. O objetivo do projeto, idealmente, é criar um sistema inteiro para uma cafeteria, possibilitando que seus funcionários possam gerenciar melhor os pedidos de seus clientes e seu estoque de matéria-prima.
+
+**Professor** [Marco André Mendes](https://github.com/marrcandre)
 
 **Equipe**
 - [Enzo Lazzarin Dal'osto](https://github.com/Wecreds)
 
 **Links**
--   [Documentação (esse documento)](github.com/marcoandre/pi-modelo)
--   Backend: [Repositório](github.com/marcoandre/pi-backend) e [Publicação](https://pi-backend.herokuapp.com/)
--   Frontend: [Repositório](github.com/marcoandre/pi-frontend) e [Publicação](https://pi-frontend.herokuapp.com/)
-
-**Como usar esse modelo para o Projeto Integrador**
-
-*(Essa parte pode ser apagada depois.)*
-
-1. Faça um fork desse repositório para a sua conta do GitHub.
-2. Clone o repositório para o seu computador.
-3. Abra o arquivo README.md no seu editor de texto favorito (recomendamos o [Visual Studio Code](https://code.visualstudio.com/)).
-4. Tenha instaladas as seguintes extensões:
-   - [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one)
-   - [TODO Highlight](https://marketplace.visualstudio.com/items?itemName=wayou.vscode-todo-highlight)
-5. Edite o arquivo README.md com as informações do seu projeto.
-
+-   [Documentação](https://github.com/Wecreds/FedoraCoffee-frontend/blob/main/README.md)
+-   Backend: [Repositório]() e [Publicação]()
+-   Frontend: [Repositório](https://github.com/Wecreds/FedoraCoffee-frontend) e [Publicação]()
 # 1. Desenvolvimento
-*(Escolha um dos modelos de sistemas para desenvolver o projeto. Apague as informações desnecessárias depois.)*
--   As equipes serão avaliadas por cada etapa da documentação e entregas realizadas.
--   Cada equipe deverá escolher um sistema para o desenvolvimento das atividades, a partir dos modelos apresentados.
+***FedoraCoffee*** é uma cafeteria contemporânea localizada no coração de Curitiba, fundada e liderada por Gabriel em 2023 e com uma breve trajetória no mercado. Atualmente possuindo dois funcionários, sendo eles o atendente e o barista.
+Agora procurando melhorar a gestão da padaria, ele quer instalar uma estação de autoatendimento sobre o caixa.
 
-**1.1 Modelos de Sistemas**
-
-**Nessa parte a equipe deve escolher um dos modelos de sistemas para desenvolver o projeto. Ao escolher, escreva uma breve descrição do sistema e o motivo da escolha e pode apagar os outros modelos.**
-
-**1.1.1 Ponto de Vendas (PDV)**
-
-**Gerenciamento de vendas para uma padaria**
-
-O nosso cliente, Sr. Genival, tem uma padaria de bairro chamada padaria Pão Genial e, devido a qualidade de seus produtos, ela está crescendo rapidamente. Recentemente, ele contratou mais funcionários para atendimento, caixa, panificação, etc.
-Assim, atualmente, ele consegue concentrar seus esforços para melhorar a gestão da padaria. Para isso, ele quer instalar um sistema de controle de vendas que permita ao caixa lançar as vendas realizadas. Como sua intenção
-é melhorar a gestão do negócio, é muito importante que ele consiga ter
-relatórios, como por exemplo, de vendas.
 
 # 2. Situação Problema
 
-*(Nessa parte a equipe deve descrever a situação problema que será resolvida pelo sistema. O texto abaixo descreve o que essa etapa deve conter e pode ser apagado depois.)*
+Como em muitos estabelecimentos do ramo, enfrentam desafios comuns relacionados à gestão de pedidos e controle de estoque. A comunicação entre o barista e o atendente nem sempre é eficiente, resultando em erros de pedidos ou, às vezes, em pedidos simplesmente não atendidos. Além disso, a gestão do estoque é uma preocupação constante, com produtos muitas vezes esgotados repentinamente, exigindo a retirada de itens do cardápio.
 
-![Ciclo da Venda](docs/ciclo_da_venda.webp "Ciclo da Venda")
-
-Descrevem o que acontece atualmente na empresa em um contexto global,
-abordando o funcionamento da empresa como um todo, não apenas os “problemas” que lá ocorrem.
-
-Sabendo disso, seu papel é **detalhar o funcionamento da empresa escolhida na
-atualidade, ou seja, antes de seu novo software**, usando como base a situação que passamos, mas aprofundando os detalhes de como as coisas acontecem.
-
--   Pesquise sobre empresas do ramo escolhido
-    para entender como funcionam;
--   Aproveite seus conhecimentos previamente adquiridos na área da empresa que escolheu, se houver;
--   Simule uma situação real. Lembre-se que são propostas com empresas fictícias, sendo assim, você terá que tomar certas decisões sobre como a empresa funciona em relação às coisas que não estão definidas no documento base (por exemplo, no caso da padaria, dizemos que seu Genival contratou mais funcionários, mas saber quantos e o que fazem pode ser relevante para o software), então tente “visualizar” a empresa funcionando, como se você estivesse lá acompanhando o dia-a-dia;
-
-Seguindo essas dicas, você deve ser capaz de descrever o dia-a-dia da empresa selecionada. E para ajudar na organização do texto, indicamos uma abordagem em 3 etapas:
-
--   **Introdução**: comece com um parágrafo apresentando a empresa (nome, o que faz, tempo de existência, o dono, funcionários, etc);
--   **Situação-problema**: Aborde em detalhes como a empresa funciona, procurando seguir uma ordem lógica dos acontecimentos e organizando parágrafos diferentes para cada coisa diferente que for explicar (como faria em uma redação);
--   **Conclusão**: tenha um parágrafo de conclusão focando nos problemas que você notou dentro da situação problema analisada e aponte brevemente como um software poderia ajudar a resolvê-los.
+Para superar esses obstáculos, identificamos a necessidade de implementar uma solução eficaz: uma estação de autoatendimento para nossos clientes. Com essa inovação, nossos clientes serão orientados pela equipe sobre como utilizar o sistema, permitindo-lhes fazer seus pedidos de forma rápida e precisa. Uma vez feito o pedido, este será automaticamente encaminhado para uma tela visível ao barista, que poderá preparar as bebidas conforme solicitado. Além disso, o sistema atualizará automaticamente o estoque, garantindo que saibamos exatamente quais produtos foram utilizados em cada pedido, o sistema também deverá ser capaz de comunicar quando algum produto estiver com pouca quantidade.
 
 # 3. Descrição da proposta
+Nosso software tem como foco principal simplificar a gestão de pedidos e controle de estoque, abordando os desafios enfrentados pela FedoraCoffee.
 
-Após entender o problema, proponha uma solução que será útil nos aspectos de dificuldade encontrados. Assim, aqui você deverá **explicar de maneira resumida, e preferencialmente mais textual, como o software funcionará**. Pense nesse texto como uma **introdução ao seu cliente** do que você pretende fazer por ele, para que ele confirme se realmente está dentro do desejado e permita sua continuidade.
+**Foco de ação do software:**
 
-**Alguns pontos importantes a se destacar são:**
+-   O software permitirá aos clientes fazerem pedidos de forma autônoma através de uma estação de autoatendimento, onde poderão selecionar os itens desejados e enviar seus pedidos para a equipe de preparação.
+-   Além disso, o sistema permitirá que o dono e os funcionários gerenciem o estoque, adicionando novos insumos e atualizando as quantidades disponíveis.
 
--   **Qual o foco de ação do software** relacionado com os problemas levantados na análise da situação-problema. O que realmente o software vai fazer. Por exemplo, o foco de ação do Gmail é permitir o envio e recebimento de e-mails.
--   **Os níveis de usuário do sistema**. Somente o gestor tem acesso? E os funcionários? Talvez seja para ambos, ou para funcionários de cargos
-    diferentes, etc.
--   **O que poderá ser feito no software**.Apenas o principal, sem pensar em telas ou detalhes específicos, pois isso será feito em outro momento.
--   **Se houver mais de um nível de usuário**, ressaltar as diferenças entre eles na descrição da proposta.
+**Níveis de usuário do sistema:**
 
-Tenha em mente que essa é uma etapa relativamente breve. Não é necessário um texto gigantesco, apenas dar uma noção do funcionamento do sistema. Mais adiante
-precisaremos ser bem detalhistas, todavia agora a intenção é apenas fazer algo que permita ao cliente nos dizer se estamos no caminho certo.
+-   Existirá um login especial para o proprietário e para os funcionários, permitindo-lhes acesso às funcionalidades específicas do sistema. Os clientes não terão acesso ao sistema além da estação de autoatendimento.
+
+**Funcionalidades do software:**
+
+-   Para os clientes: possibilitará a realização de pedidos de forma autônoma, através da seleção de produtos disponíveis na estação de autoatendimento.
+-   Para o proprietário e funcionários: permitirá o gerenciamento do estoque, possibilitando a adição de novos insumos, atualização de quantidades e monitoramento do fluxo de estoque.
 
 # 4. Modelagem de Dados
-
-(*Nessa parte a equipe deve descrever a modelagem de dados que será implementada no sistema. O texto abaixo descreve o que essa etapa deve conter e pode ser apagado depois.*)
-
-Defina as entidades e relacionamentos que farão parte do sistema. Desenhe o diagrama de entidade-relacionamento (DER) e descreva as entidades e relacionamentos que farão parte do sistema.
-
+![Modelo DER](docs/DER.png)
+<!--
 # 4. Regras de negócio
 (*Nessa parte a equipe deve descrever as regras de negócio que serão implementadas no sistema. O texto abaixo descreve o que essa etapa deve conter e pode ser apagado depois.*)
 
@@ -594,3 +551,4 @@ entendimento).
 **Identificando a fronteira do sistema**
 
 ![Identificando a fronteira do sistema](img/dcu_identificando_a_fronteira_do_sistema.png "Identificando a fronteira do sistema")
+-->
